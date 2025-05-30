@@ -3,8 +3,6 @@
 import os
 import re
 
-EPG_LIST = open('epglist.txt',"r") # for a clean code 
-
 class Channel:
     def __init__(self, group, md_line):
         self.group = group
